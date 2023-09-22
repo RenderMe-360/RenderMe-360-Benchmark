@@ -1,0 +1,12 @@
+black haircolor
+blonde haircolor
+gray haircolor
+brown haircolor
+purple haircolor
+red haircolor
+orange haircolor
+yellow haircolor
+green haircolor
+blue haircolor
+pink haircolor
+white haircolor

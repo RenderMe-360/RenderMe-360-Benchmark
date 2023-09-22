@@ -1,0 +1,1 @@
+python -u NeRFs/HeadNeRF/run_nerf.py --config dataset/$1/HeadNeRF_config_s123456.txt
