@@ -62,7 +62,7 @@ $ cp -r hair_rendering/nrnerf/*.sh nonrigid_nerf/
 
 3. Build up the runing environment.
 
-4. Download and unzip the benchmark dataset from `benchamrk_data/data_hairrendering_nsff_nrnerf.tar` and move it to the root path.
+4. Download and unzip the benchmark dataset from `benchmark_data/data_hairrendering_nsff_nrnerf.tar` and move it to the root path.
 ```sh
 $ mv [path to dataset] nonrigid_nerf/
 ```

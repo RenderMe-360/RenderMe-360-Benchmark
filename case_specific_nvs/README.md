@@ -18,7 +18,7 @@ $ mv case_specific_nvs/instant-ngp/testbed.cu instant-ngp/src/testbed.cu
 $ mv case_specific_nvs/instant-ngp/python_api.cu instant-ngp/src/python_api.cu
 ```
 3. Compile the repo following the official steps.
-4. Download and unzip the benchmark dataset from `benchamrk_data/data_NVS_instant-ngp.zip` and move it to the root path.
+4. Download and unzip the benchmark dataset from `benchmark_data/data_NVS_instant-ngp.zip` and move it to the root path.
 5. We also provided our pre-trained checkpoints (sampled checpoints, due to the large model size) of instant-ngp [here](https://drive.google.com/drive/folders/11qK2CEevV2Oi5Jm-sFv913CNyrYXqY5y?usp=sharing).
 
 ### Training
@@ -72,7 +72,7 @@ $ cp -r case_specific_nvs/neuralnolumes/runs neuralnolumes/
 $ cp -r case_specific_nvs/neuralnolumes/data/*.py neuralnolumes/data/
 ```
 
-4. Download and unzip the benchmark dataset from `benchamrk_data/data_NVS_mvp_nv.tar` and move it to the root path.
+4. Download and unzip the benchmark dataset from `benchmark_data/data_NVS_mvp_nv.tar` and move it to the root path.
 5. We also provided our pre-trained checkpoints (sampled checpoints, due to the large model size)  of neuralvolumes [here](https://drive.google.com/drive/folders/1IqJrb2VKNrVKOgMhzjPXtG9bvu0n-3nj?usp=sharing). 
 
 ### Training
@@ -99,7 +99,7 @@ $ python calculate_metric.py
 1. Git clone the original repository of [MVP](https://github.com/facebookresearch/mvp) and create the virtual environment following the instruction.
 2. Build up the python environment according to the official repo.
 3. Fit the code with provided dataloader and config files.
-4. Download and unzip the benchmark dataset from `benchamrk_data/data_NVS_mvp_nv.tar` and move it to the root path.
+4. Download and unzip the benchmark dataset from `benchmark_data/data_NVS_mvp_nv.tar` and move it to the root path.
 5. We also provided our pre-trained checkpoints (sampled checpoints, due to the large model size)  of MVP [here](https://drive.google.com/drive/folders/1dqSFkUCrPxcPOQiRxwcN61dRPdWrN1Fs?usp=sharing). 
 6. Start training/testing.
 

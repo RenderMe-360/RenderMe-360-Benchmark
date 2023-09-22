@@ -15,7 +15,7 @@ We pre-processed, trained, and tested [AD-NeRF](https://github.com/YudongGuo/AD-
 ### Testing
 
 1. Git clone the original repository of [AD-NeRF](https://github.com/YudongGuo/AD-NeRF) and create the virtual environment following the instruction.
-2. Download the [pre-trained checkpoints ](https://drive.google.com/drive/folders/1hWVgOexnuH_WfjDnAi6GXq_CsDnA9e5J?usp=sharing) and dataset `benchamrk_data/data_talkinghead.zip` and put them to `AD-NeRF/dataset/`.
+2. Download the [pre-trained checkpoints ](https://drive.google.com/drive/folders/1hWVgOexnuH_WfjDnAi6GXq_CsDnA9e5J?usp=sharing) and dataset `benchmark_data/data_talkinghead.zip` and put them to `AD-NeRF/dataset/`.
 3. Use the provided files in `./AD-NeRF/NeRFs` to replace the original files.
 4. Run `python test_s123456.py $id`  to render the video.
 

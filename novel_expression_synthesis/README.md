@@ -21,7 +21,7 @@ $ mv novel_expression_synthesis/IMavatar/scripts IMavatar/scripts
 $ mv novel_expression_synthesis/IMavatar/datasets IMavatar/datasets
 ```
 
-4. Download and unzip the benchmark dataset from `benchamrk_data/data_NES_imavatar_pointavatar.tar` and move it to the root path.
+4. Download and unzip the benchmark dataset from `benchmark_data/data_NES_imavatar_pointavatar.tar` and move it to the root path.
 ```sh
 $ mv [path to dataset] IMavatar/data
 ```
@@ -64,7 +64,7 @@ $ mv novel_expression_synthesis/pointavatar/scripts pointavatar/code/scripts
 $ mv novel_expression_synthesis/pointavatar/datasets pointavatar/code/datasets
 ```
 
-4. Download the FLAME model from [hier](https://drive.google.com/file/d/1A9kLFmNeag63LZ_iyxQanxU4fgEvVFOM/view?usp=sharing), and put it to pointavatar/code/flame/FLAME2020/generic_model.pkl.
+4. Download the FLAME model from [here](https://drive.google.com/file/d/1A9kLFmNeag63LZ_iyxQanxU4fgEvVFOM/view?usp=sharing), and put it to pointavatar/code/flame/FLAME2020/generic_model.pkl.
 
 5. Download and unzip the benchmark dataset from `benchamrk_data/data_NES_imavatar_pointavatar.tar` and move it to the root path.
 ```sh

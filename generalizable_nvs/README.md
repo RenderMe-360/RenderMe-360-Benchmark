@@ -20,7 +20,7 @@ data/
 │   ├── annotations
 │   └── pretrained_models
 ```
-
+Please download and unzip the benchmark dataset from `benchmark_data/data_generalizable.tar.tar`
 
 
 ## IBRNet
@@ -33,6 +33,7 @@ git clone https://github.com/yangyangwithgnu/IBRNet.git
 ```
 
 2. Download pre-trained models and save the model to `{setting}/pretrained_models/IBRNet`
+The pre-trained models can be downloaded together with the data or alone from [here](https://drive.google.com/drive/folders/1dO3wKWbcUKtC-OUs4mZK4XiQ7cROL-IW?usp=sharing).
 
 3. Copy the config and data loader files from `IBRNet/` to the original repo `ibrnet`.
 

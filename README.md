@@ -16,4 +16,4 @@ This is the Benchmark PyTorch implementation of the paper *"[RenderMe-360: A Lar
 |       Hair Editting       |                          StyleCLIP <br> HairCLIP                        | [hair_editing/README.md](hair_editing/README.md)                                                                              |
 |  Talking Head Generation  |                            AD-Nerf <br> SSP-Nerf                            | [talking_head/README.md](talking_head/README.md)                                                                              |
 
-We provide the train/test data for the whole benchmark in a unified path. Please click [here](https://opendatalab.org.cn/RenderMe-360/download) to download our benchmark data.
+We provide the train/test data for the whole benchmark in a unified path. Please click [here](https://opendatalab.org.cn/RenderMe-360/download) to download our benchmark data (in `benchmark_data` folder).
