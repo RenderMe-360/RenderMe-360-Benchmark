@@ -3,7 +3,7 @@
 This case-specific track refers to the setting of training on a single head with multi-view images, which originates from NeRF’s de facto setting, to evaluate the robustness of static multi-view head reconstruction.
 
 
-# Reimplementation of instant-ngp
+## Reimplementation of instant-ngp
 
 ### Preparation
  
@@ -100,9 +100,11 @@ $ python calculate_metric.py
 2. Build up the python environment according to the official repo.
 3. Fit the code with provided dataloader and config files.
 4. Download and unzip the benchmark dataset from `benchmark_data/data_NVS_mvp_nv.tar` and move it to the root path.
-5. We also provided our pre-trained checkpoints (sampled checpoints, due to the large model size)  of MVP [here](https://drive.google.com/drive/folders/1dqSFkUCrPxcPOQiRxwcN61dRPdWrN1Fs?usp=sharing). 
-6. Start training/testing.
+5. Start training/testing.
 
+## Reimplementation of NeuS
+
+✨ To Be Released....
 
 ## Citation
 ```

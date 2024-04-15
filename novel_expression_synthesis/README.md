@@ -90,6 +90,10 @@ $ bash eval.sh
 $ python calculate_metric.py
 ```
 
+## Reimplementation of NerFace
+
+✨ To Be Released....
+
 ## Citation
 
 ```
